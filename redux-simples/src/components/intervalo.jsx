@@ -1,4 +1,4 @@
-import "./intervalo.css";
+import "./Intervalo.css";
 import React from "react";
 import Card from "./Card";
 
