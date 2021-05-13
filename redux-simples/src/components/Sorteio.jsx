@@ -4,7 +4,7 @@ import Card from "./Card";
 
 // eslint-disable-next-line
 const Sorteio = ({ min, max }) => {
-  const aleatorio = parseInt(Math.random() * max);
+  const aleatorio = parseInt(Math.random() * (max - min) + min);
   return (
     <Card title="Sorteio de um Número" purple>
       <div>
