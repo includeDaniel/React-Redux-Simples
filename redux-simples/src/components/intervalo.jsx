@@ -13,7 +13,7 @@ const Intervalo = (props, props2) => {
     <Card title="Intervalo de Números" red>
       <div className="Intervalo">
         <span>
-          <strong>Mínimo:</strong>
+          <strong>Mínimo :</strong>
           <input
             type="number"
             value={min}
@@ -21,7 +21,7 @@ const Intervalo = (props, props2) => {
           />
         </span>
         <span>
-          <strong>Máximo:</strong>
+          <strong>Máximo :</strong>
           <input
             type="number"
             value={max}
