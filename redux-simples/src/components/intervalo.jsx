@@ -3,8 +3,10 @@ import React from "react";
 import Card from "./Card";
 
 import { connect } from "react-redux";
-import alterarNumeroMinimo from "../store/actions/numeros";
-import alterarNumeroMaximo from "../store/actions/numeros";
+import {
+  alterarNumeroMinimo,
+  alterarNumeroMaximo,
+} from "../store/actions/numeros";
 
 // eslint-disable-next-line
 const Intervalo = (props, props2) => {

@@ -1,15 +1,14 @@
 // Action Creator
-function alterarNumeroMinimo(novoNumero) {
+export function alterarNumeroMinimo(novoNumero) {
   return {
     type: "NUM_MIN_ALTERADO",
     payload: novoNumero,
   };
 }
-function alterarNumeroMaximo(NovoNumero) {
+export function alterarNumeroMaximo(novoNumero) {
   return {
     type: "NUM_MAX_ALTERADO",
-    payload: NovoNumero,
+    payload: novoNumero,
   };
 }
 
-export default (alterarNumeroMinimo, alterarNumeroMaximo)
